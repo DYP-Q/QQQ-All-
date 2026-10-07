@@ -155,7 +155,8 @@
             <div class="header-main-text">개선대책 유효성 점검 현황</div>
         </div>
         <div class="header-right">
-            <a href="https://docs.google.com/spreadsheets/d/1CAAK11qrimDmHXvii7zRcUaWFTY6ENMT-LB7q5nrJz4/edit?gid=359651245#gid=359651245" 
+            <!-- 변경된 상세 원본 시트 주소 반영 -->
+            <a href="https://docs.google.com/spreadsheets/d/12lp4xoI1m0-bWKUlqQqBKDOsXdqM35jgfLq-sE3GyoI/edit?gid=359651245#gid=359651245" 
                target="_blank" class="btn-sheet">
                 📊 상세 원본 시트 열기
             </a>
@@ -309,7 +310,6 @@
 
     <!-- JavaScript 로직 -->
     <script>
-        /* 수정된 새로운 CSV 연동 주소 반영 */
         const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTrq5KCatFPs65-KfHtPbfMFMwh9WQpRZx-Fer9qZ2VlXbiE750gcYxYp3b2w7VZfFMBOScOBDjxUFv/pub?output=csv";
 
         let allParsedData = [];
